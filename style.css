@@ -1,0 +1,135 @@
+/* start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #A637Ea;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Kontrapunkt Bold', sans-serif;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Kontrapunkt Bold', sans-serif;                                              
+}
+/* end */
+
+.banner {
+    color: #A637Ea;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.banner-info img {
+    width: 200px;
+    border-radius: 10%;
+}
+
+.banner-info {
+    text-align: center;
+}
+
+.banner h1 {
+    margin-left: 100px;
+    font-size: 50px;
+    font-family: 'Kontrapunkt Bold', sans-serif;
+}
+
+main {
+    height: 500px;
+    background-color: #A637Ea;
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+}
+
+main div {
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+main div h1 {
+    text-align: center;
+    margin-top: 130px;
+    font-family: 'Kontrapunkt Bold', sans-serif;
+    color: #A637Ea;
+}
+
+main div h3 {
+    font-family: 'Kontrapunkt Bold', sans-serif;
+}
+
+main div p {
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Kontrapunkt Light', sans-serif;
+}
+
+footer {
+    background-color: #A637Ea;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+ .move {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container .text {
+    position: relative;
+    color: #A637Ea;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Kontrapunkt Light', sans-serif;
+}
+
+.text.first-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-left: 4px solid #000;
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%, 60%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+}

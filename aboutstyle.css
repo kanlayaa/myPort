@@ -1,0 +1,115 @@
+/* start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #A637Ea;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Kontrapunkt Bold', sans-serif;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Kontrapunkt Bold', sans-serif;                                              
+}
+
+footer {
+    background-color: #A637Ea;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/* end */
+
+main {
+    height: 400px;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.profi img {
+    width: 200px;
+    border-radius: 10px;
+    margin-left:  200px;
+    
+}
+
+.topic {
+    font-size: 30px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #A637Ea;
+                                                
+}
+.deteil {
+    font-size: 20px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #808080;
+                                                
+}
+
+body h2 {
+    font-family:'Kontrapunkt Bold', sans-serif ;
+}
+.edu {
+    background-color: #A637Ea;
+    height: 550px;
+    display: flex;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.edu div {
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px;
+    height: 500px;
+    padding: 20px;
+}
+.center {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 200px;
+    border-radius: 100%;
+  }
+  .emtry {
+    height: 10px;
+    background-color: aliceblue;
+}
+
+.edu div h4 {
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #808080;
+}
+
+
